@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Форма</title>
+    </head>
+    <body>
+        <form method="post">
+            <h1>Форма регистрации пользователя</h1>
+            <label>E-mail
+                <input type="email" name="Email" placeholder="Введите e-mail" required>
+            </label>
+            <br>
+            <label>
+                Пароль
+                <input type="password" name="Password" placeholder="Введите пароль" required>
+            </label>
+            <p>Пол 
+            <label>
+                <input type="radio" name="gen" value="male"> Мужчина
+            </label>
+
+            <label>
+                <input type="radio" name="gen" value="female"> Женщина
+            </label>
+            </p>
+            <label>
+                Год рождения <input type="number" name="year" min="1900" step="1" max="2026">-й
+            </label>
+            <p>Я знаю 
+                <label>
+                    <input type="checkbox" name="lang" checked disabled> Русский
+                </label>
+                <label>
+                    <input type="checkbox" name="lang"> Испанский
+                </label>
+                <label>
+                    <input type="checkbox" name="lang"> Немецкий
+                </label>
+                <label>
+                    <input type="checkbox" name="lang"> Английский
+                </label>
+                <label>
+                    <input type="checkbox" name="lang"> Китайский
+                </label>
+            </p>
+            <br>
+            <label>
+                Обо мне
+                <input type="text" placeholder="Напишите коротко о себе" size="50">
+            </label>
+            <br>
+            <button type="submit">Готово</button>
+            <button type="reset">Очистить</button>
+        </form>
+    </body>
+</html>
