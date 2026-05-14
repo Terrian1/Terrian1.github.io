@@ -1,0 +1,39 @@
+@import "bootstrap-reboot.css";        
+        body{
+            background-color: black;
+            background: url("gloomy-stripes.jpg");
+            background-position: center right ;
+            background-size: 256px;
+            color: white;
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+        p{
+            text-align: right;
+            color: #FFFFFF;
+        }
+        h1,h2{
+            text-align: right;
+            color: #FFCC00;
+			font-family: "Roboto";
+        }
+		em{
+            color: #009B4D
+        }
+        .wrapper{
+            max-width: 960px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 10px;
+			padding-right: 10px;
+        
+        }
+        strong{
+            font-family: "Caveat";
+        }
+        article{
+            border: 2px solid #ffffff92;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px;
+        }
